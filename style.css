@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+div {
+    background-color: lightblue;
+    border: 2px solid rgb(255, 222, 160);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.dark-bg {
+    background-color: rgb(42, 4, 66);
+    color: white;
+    border: 3px solid white;
+}
+
+h1.dark-bg {
+    background-color: rgb(58, 56, 83);
+    color: white;
+    border:10px solid rgb(58, 56, 83);
+}
+
+.container {
+    border: 8px solid rgb(64, 0, 128);
+}
+
+h1.container {
+    font-size: 150px;
+}
+
+.container.heading {
+    font-size: 120px;
+}
